@@ -4,7 +4,7 @@ st.image("IMG_7834.JPG")
 # CẤU HÌNH TRANG
 # ==============================
 st.set_page_config(
-    page_title="APP TÍNH TIỀN GỬI TIẾT KIỆM TẠI NGÂN HÀNG_BẢO VY",
+    page_title="APP TÍNH TIỀN GỬI TIẾT KIỆM TẠI NGÂN HÀNG_NGUYỄN HOÀNG BẢO VY",
     page_icon="💰",
     layout="centered"
 )
