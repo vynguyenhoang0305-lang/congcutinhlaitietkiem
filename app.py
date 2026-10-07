@@ -338,7 +338,6 @@ st.caption(
 # ==============================
     # LÃI KÉP
     # ==============================
-    else:
 
         # Số lần nhập lãi
         if hinh_thuc_nhan_lai == "Lãnh lãi hàng tháng":
