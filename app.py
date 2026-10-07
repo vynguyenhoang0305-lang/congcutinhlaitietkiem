@@ -1,7 +1,6 @@
 import streamlit as st
 import math
 import pandas as pd
-import matplotlib.pyplot as plt
 st.image("IMG_7834.JPG")
 # =========================
 # CẤU HÌNH TRANG
