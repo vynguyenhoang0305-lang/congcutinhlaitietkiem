@@ -214,8 +214,6 @@ if st.button("🧮 TÍNH LÃI", use_container_width=True):
         "Giá trị": gia_tri
     })
 
-    fig, ax = plt.subplots(figsize=(10, 4))
-
     ax.plot(
         df_chart["Tháng"],
         df_chart["Giá trị"],
