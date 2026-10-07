@@ -204,31 +204,6 @@ if st.button("🧮 TÍNH LÃI", use_container_width=True):
     st.table(thong_tin)
 
     # =========================
-    # BIỂU ĐỒ TĂNG TRƯỞNG
-    # =========================
-
-    st.subheader("📈 Biểu đồ tăng trưởng khoản tiền")
-
-    df_chart = pd.DataFrame({
-        "Tháng": list(range(0, so_thang + 1)),
-        "Giá trị": gia_tri
-    })
-
-    ax.plot(
-        df_chart["Tháng"],
-        df_chart["Giá trị"],
-        marker="o"
-    )
-
-    ax.set_xlabel("Thời gian (tháng)")
-    ax.set_ylabel("Số tiền (VNĐ)")
-    ax.set_title("Giá trị khoản tiền theo thời gian")
-
-    ax.grid(True, alpha=0.3)
-
-    st.pyplot(fig)
-
-    # =========================
     # TÍNH NĂNG SÁNG TẠO:
     # MỤC TIÊU TIẾT KIỆM
     # =========================
