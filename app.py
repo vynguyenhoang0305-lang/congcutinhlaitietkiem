@@ -19,7 +19,7 @@ def format_money(value):
 # ==============================
 # TIÊU ĐỀ
 # ==============================
-st.title("💰 TÍNH LÃI TIỀN GỬI TIẾT KIỆM")
+st.title("💰 APP TÍNH LÃI TIỀN GỬI TIẾT KIỆM TẠI NGÂN HÀNG_NGUYỄN HOÀNG BẢO VY💰")
 st.caption("Tính toán theo lãi đơn hoặc lãi kép")
 
 st.divider()
