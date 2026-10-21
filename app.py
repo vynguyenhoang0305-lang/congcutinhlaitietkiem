@@ -1,7 +1,7 @@
 import streamlit as st
 import math
 import pandas as pd
-st.image(".jpg")
+st.image(".jpg ")
 # =========================
 # CẤU HÌNH TRANG
 # =========================
